@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypedia - A Enciclopédia do Hip Hop</title>
+    <!-- Bootstrap v5.3.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+    <font style="font-family:Georgia, 'Times New Roman', Times, serif">
+
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="">
+                <img src="imgbaner/Mídia__1__1__1_-removebg-preview.png" width="100" height="100">
+                <a class="navbar-brand" style="font-family: Arial, Helvetica, sans-serif;"><p style="color:aliceblue ;">Hy <span style="color: goldenrod;">pedia</span></p></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Menu de Navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            
+            
+            <!-- Menu para Desktop -->
+            <div class="collapse navbar-collapse justify-content-end d-none d-lg-flex" id="navbarNav">
+                <font style="font-family:Georgia, 'Times New Roman', Times, serif">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#historia">História do Hip Hop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#elementos">Elementos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#breaking">Breaking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#breaking-brasil">Breaking-Brasil</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a href="#informações" class="btn btn-primary-custom py-2 px-4" style="font-family: 'Times New Roman', Times, serif">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            </font>
+        </div>
+    </nav>
+
+    <!-- Offcanvas Menu para Mobile -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <font style="font-family:Georgia, 'Times New Roman', Times, serif">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <img src="imgbaner/Mídia__1__1__1_-removebg-preview.png" width="10" height="10">
+                <a class="navbar-brand" style="font-family: Arial, Helvetica, sans-serif;"><p style="color:aliceblue ;">Hy <span style="color: goldenrod;">pedia</span></p></a>
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column justify-content-between">
+            <ul class="navbar-nav flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#historia" data-bs-dismiss="offcanvas">História do Hip Hop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#elementos" data-bs-dismiss="offcanvas">Os Elementos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#breaking" data-bs-dismiss="offcanvas">Breaking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#breaking-brasil" data-bs-dismiss="offcanvas">Breaking no Brasil</a>
+                </li>
+            </ul>
+            <div class="mt-auto pt-4 border-top">
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input class="form-control bg-dark border-secondary text-white" type="search" placeholder="Pesquisar..." aria-label="Pesquisar">
+                        <button class="btn btn-primary-custom" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <div class="mt-3 text-center text-muted fs-7">
+                    &copy; 2026 Hypedia. Todos os direitos reservados.
+                </div>
+            </div>
+        </div>
+        </font>
+    </div>
+</p>
+</br>
+    <!-- Seção Hero / Banner -->
+    <header class="hero-section">
+        <div class="container">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <span class="section-badge">Bem-vindo ao Hypedia</span>
+                    <h1 class="display-4 fw-black text-white mb-4">
+                        <a style="font-family:Georgia, 'Times New Roman', Times, serif">O seu portal de conhecimento sobre a cultura do Hip Hop</a>
+                    </h1>
+                    <p class="lead text-secondary mb-5">
+                       Explore e se informe, sobre a cultura do Hip Hop, conhecendo sua origem e seus desafios enfrentados perante a sociedade. 
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3" style="font-family: 'Times New Roman', Times, serif;">
+                        <a href="#historia" class="btn btn-primary-custom">Começar a Leitura</a>
+                        <a href="#elementos" class="btn btn-outline-custom">Elementos</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-banner-wrapper">
+                        <!-- escolher imagem -->
+                        <img src="Imagem/Mídia.jpg" alt="Hypedia Grafite Banner" class="hero-banner-img img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- objetivo do Hypedia -->
+        <section id="historia" class="py-5">
+            <div class="container">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8">
+                        <h2 class="display-5 text-white mb-3" style="font-family: Georgia, 'Times New Roman', Times, serif;">Um pouco sobre o Hypedia</h2>
+                        <div class="divider mx-auto mb-4" style="width: 60px; height: 4px; background-color: var(--accent-color); border-radius: 2px;"></div>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="highlight-box">
+                            <p class="fs-5 text-light lh-lg mb-0">
+                                Hypedia nasceu com objetivo de fornecer informações abrangentes e atualizadas sobre a cultura hip hop, enfatizando um de seus Pilares: Breaking.
+
+Aqui, você encontrará os assuntos relacionado a cultura do Hip Hop, divulgando competições, performances de breaking, artistas e locais de pratica presentes na cidade de Bauru. Queremos celebrar e promover a cultura hip hop local, conectando fãs, artistas e entusiastas através de notícias, divulgação de eventos e histórias inspiradoras.
+
+Junte-se a nós na Hypedia e faça parte dessa comunidade vibrante que é o hip hop!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre / História -->
+        
+            <div class="container">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8">
+                        <span class="section-badge">Origem</span>
+                        <h2 class="display-5 text-white mb-3" style="font-family: Georgia, 'Times New Roman', Times, serif;">História do Hip Hop</h2>
+                        <div class="divider mx-auto mb-4" style="width: 600px; height: 4px; background-color: var(--accent-color); border-radius: 2px;"></div>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="highlight-box">
+                            <p class="fs-5 text-light lh-lg mb-0" style="text-align: justify;">
+                                Sua origem remonta à década de 1970 no Bronx, em Nova York, em um contexto marcado por desigualdades sociais, dificuldades econômicas e pela presença significativa de comunidades negras e latinas. Nesse cenário, jovens encontraram na arte uma maneira de ocupar espaços, estabelecer vínculos, expressar suas experiências e transformar a realidade ao seu redor.
+                                As festas realizadas nas ruas, conhecidas como Block parties, foram fundamentais para esse processo. Os DJs começaram a experimentar novas maneiras de utilizar os discos, prolongando os trechos instrumentais das músicas, conhecidos como breaks. Esses momentos proporcionavam aos dançarinos mais tempo para desenvolver seus movimentos, enquanto os MCs utilizavam o microfone para interagir com o público e conduzir as festas. Paralelamente, o grafite passou a ocupar muros e outros espaços da cidade, contribuindo para a construção de uma nova identidade visual e cultural.
+                                Uma das datas mais conhecidas dessa história é 11 de agosto de 1973, quando Cindy Campbell e seu irmão, Clive Campbell, conhecido como DJ Kool Herc, realizaram uma festa no número 1520 da Sedgwick Avenue, no Bronx. O encontro é frequentemente apontado como um dos acontecimentos marcantes para o surgimento do Hip Hop. No entanto, é importante compreender que uma cultura não nasce em um único dia nem pode ser atribuída a uma única pessoa. O Hip Hop foi construído coletivamente a partir das experiências, referências e criações de diversas pessoas e comunidades.
+                                Ao longo do tempo, essa cultura ultrapassou as fronteiras dos Estados Unidos e alcançou diferentes países, adquirindo características próprias em cada lugar onde encontrou espaço para se desenvolver.
+
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+
+        <!-- Seção Os Quatro Elementos -->
+        <section id="elementos" class="py-5 bg-light">
+            <div class="container py-4">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8">
+                        <span class="section-badge">Pilares</span>
+                        <h2 class="display-5 text-black mb-3" style="font-family: Georgia, 'Times New Roman', Times, serif;">Os Cinco Elementos</h2>
+                        <p class="text-muted">A base que sustenta toda a cultura Hip Hop ao redor do mundo.</p>
+                        <div class="divider mx-auto mt-3 mb-4" style="width: 60px; height: 4px; background-color: var(--accent-color); border-radius: 2px;"></div>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Elemento 1: Rap -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="element-card">
+                            <div class="icon-box">
+                                <i class="bi bi-mic-fill"></i>
+                            </div>
+                            <h4>MC / Rap</h4>
+                            <p class="text-muted mb-0">
+                                <a style="color: aliceblue;">
+                                O ritmo e a poesia (Rhythm and Poetry). É a voz do movimento, onde o mestre de cerimônias traduz em rimas a realidade e os sentimentos cotidianos das ruas.
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Elemento 2: DJing -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="element-card">
+                            <div class="icon-box">
+                                <i class="bi bi-disc-fill"></i>
+                            </div>
+                            <h4>DJing</h4>
+                            <p class="text-muted mb-0">
+                                <a style="color: aliceblue;">
+                                A espinha dorsal musical. Os DJs criam colagens sonoras, scratches e breakbeats, ditando o ritmo que faz a pista de dança e os rimadores vibrarem.
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Elemento 3: Graffiti -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="element-card">
+                            <div class="icon-box">
+                                <i class="bi bi-palette-fill"></i>
+                            </div>
+                            <h4>Graffiti</h4>
+                            <p class="text-muted mb-0">
+                                <a style="color: aliceblue;">
+                                A expressão visual. Uma revolução nas artes plásticas que transformou os muros cinzas das metrópoles em telas vibrantes cheias de atitude e crítica social.
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Elemento 4: Breaking -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="element-card">
+                            <div class="icon-box">
+                                <i class="bi bi-fire"></i>
+                            </div>
+                            <h4>Breaking</h4>
+                            <p class="text-muted mb-0">
+                                <a style="color: aliceblue;">
+                                A dança física e acrobática. Expressa a energia do Hip Hop através de movimentos corporais complexos, batalhas de estilo e superação técnica de alto impacto.
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                
+                    <!-- Elemento 5: Conhecimento -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="element-card">
+                            <div class="icon-box">
+                                <i class="bi bi-fire"></i>
+                            </div>
+                            <h4>Conhecimento</h4>
+                            <p class="text-muted mb-0">
+                                <a style="color: aliceblue;">
+                                A dança física e acrobática. Expressa a energia do Hip Hop através de movimentos corporais complexos, batalhas de estilo e superação técnica de alto impacto.
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+        </div>
+        </section>
+
+        <!-- Seção Destaque: Breaking -->
+        <section id="breaking" class="featured-section">
+            <div class="container">
+                <div class="row align-items-center gy-5">
+                    <div class="col-lg-6">
+                        <!-- Imagem do Breaking -->
+                        <div class="featured-img-wrapper">
+                           <video width="640" controls>
+                                    <source src="videos/brasileiro.mp4" type="video/mp4">
+                            </video>
+                            <div class="featured-overlay">
+                                <span class="badge bg-warning text-dark mb-2">RedBull BC one 2021</span>
+                                <h3 class="text-white mb-0">Brasileiro X Canadense</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <span class="section-badge">A Dança</span>
+                        <h2 class="display-6 text-white mb-4" style="font-family: Georgia, 'Times New Roman', Times, serif;">Breaking (Breakdance)</h2>
+                        <p class="text-secondary lh-lg mb-4">
+                            Incompleto
+                        </p>
+                        <div class="p-3 bg-dark border-start border-warning border-3 rounded-end">
+                            <p class="mb-0 text-white italic">"O Breaking não é apenas uma dança física; é a tradução visual da batida do DJ expressa através do corpo."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: Breaking no Brasil -->
+        <section id="breaking-brasil" class="py-5">
+            <div class="container py-4">
+                <div class="row align-items-center gy-5 flex-lg-row-reverse">
+                    <div class="col-lg-6 text-center">
+                        <!-- Vamos utilizar ícones e grafismo para destacar essa seção sem colocar placeholders -->
+                        <div class="p-5 bg-secondary rounded-5 border border-secondary shadow-lg d-inline-block text-start w-100">
+                            <h4 class="text-warning mb-4"><i class="bi bi-geo-alt-fill me-2"></i>O Berço: Estação São Bento</h4>
+                            <p class="text-light">
+                                Nos anos 80, a estação de metrô São Bento, no coração de São Paulo, tornou-se o principal ponto de encontro de B-boys, DJs e MCs. Foi lá que lendas da cultura nacional moldaram a identidade do Hip Hop brasileiro.
+                            </p>
+                            <hr class="border-secondary my-4">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="bg-warning text-dark rounded-circle p-2 d-inline-flex" style="width: 45px; height: 45px; align-items: center; justify-content: center;">
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <div>
+                                    <h6 class="text-white mb-0">Referência Mundial</h6>
+                                    <small class="text-muted">B-Boys brasileiros hoje figuram entre os melhores do mundo.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <span class="section-badge">Nossa História</span>
+                        <h2 class="display-6 text-white mb-4">Breaking no Brasil</h2>
+                        <p class="text-secondary lh-lg mb-4">
+                            O Breaking chegou ao Brasil no início da década de 1980. Encontrou em São Paulo seu polo catalisador, mas logo se espalhou por capitais como Rio de Janeiro, Brasília, Porto Alegre e Belo Horizonte.
+                        </p>
+                        <p class="text-secondary lh-lg mb-4">
+                            Com forte influência da capoeira e de ritmos nacionais, os dançarinos brasileiros desenvolveram um estilo único de movimentação, caracterizado por ginga, improvisação e alto nível técnico que é admirado mundialmente nas competições internacionais.
+                        </p>
+                        <a href="#historia" class="btn btn-primary-custom">
+                            <i class="bi bi-arrow-up-short me-2"></i>Voltar ao topo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer-custom" id="informações">
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-lg-5">
+                    <a class="footer-logo" style="font-family: Arial, Helvetica, sans-serif;"><p  style="color:aliceblue ;">Hy <span style="color: goldenrod;">pedia</span></p></a>
+                    <p class="pe-lg-5 text-secondary">
+                        A maior enciclopédia interativa digital da cultura Hip Hop. Compartilhando conhecimento, valorizando as origens e conectando elementos urbanos.
+                    </p>
+                    <div class="d-flex mt-4">
+                
+                        <a href="https://www.instagram.com/hypediaofc?igsh=dzVhYTdjMTRnenFt" class="footer-social-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="mailto:Hypedia.vgmal@gmail.com" class="footer-social-btn"  aria-label="E-mail"><i class="bi bi-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <h5 class="footer-links-title" style="font-family: Georgia, 'Times New Roman', Times, serif;">Navegação</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#historia" class="footer-link">História</a></li>
+                        <li><a href="#elementos" class="footer-link">Os Elementos</a></li>
+                        <li><a href="#breaking" class="footer-link">Breaking</a></li>
+                        <li><a href="#breaking-brasil" class="footer-link">Breaking-Brasil</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom text-center">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 text-md-start mb-3 mb-md-0">
+                        <p class="mb-0 text-muted">&copy; 2026 Hypedia. Desenvolvido para representar a cultura de rua.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="#" class="text-muted text-decoration-none me-3 hover-text-white">Política de Privacidade</a>
+                        <a href="#" class="text-muted text-decoration-none hover-text-white">Termos de Uso</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap v5.3.3 JS Bundle (inclui Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
